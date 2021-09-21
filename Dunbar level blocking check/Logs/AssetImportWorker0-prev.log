@@ -15,11 +15,11 @@ C:/Users/jpdun/Desktop/Dunbar-level-blocking-check/Dunbar level blocking check
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63696
+63747
 Successfully changed project path to: C:/Users/jpdun/Desktop/Dunbar-level-blocking-check/Dunbar level blocking check
 C:/Users/jpdun/Desktop/Dunbar-level-blocking-check/Dunbar level blocking check
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 170.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003492 seconds.
+Registered in 0.003712 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.219 seconds
+- Completed reload, in  3.614 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4219ms)
+	ReloadAssembly (3614ms)
 		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (625ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (202ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (274ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (249ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (151ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (136ms)
 				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008682 seconds.
+Registered in 0.007469 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.527 seconds
+- Completed reload, in  1.505 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1529ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1259ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1270ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (416ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (541ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (572ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2246 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.1 MB.
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2688.
-Total: 10.213100 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.128600 ms MarkObjects: 8.990100 ms  DeleteObjects: 0.819300 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 7.437300 ms (FindLiveObjects: 0.581100 ms CreateObjectMapping: 0.102600 ms MarkObjects: 6.497700 ms  DeleteObjects: 0.253600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,97 +132,604 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat
-  artifactKey: Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat using Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17eaa753b24942525125e66c576b4062') in 0.656322 seconds 
-  Import took 0.668705 seconds .
+  path: Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_right.jpg
+  artifactKey: Guid(11cecf538f048a54aa8b7a513faab662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_right.jpg using Guid(11cecf538f048a54aa8b7a513faab662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ce9c9a016a0c3dbcb40e351d2343de') in 0.197025 seconds 
+  Import took 0.204468 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001543 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
-  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad158102e7516dad6b57c045d7fa1f6') in 0.070033 seconds 
-  Import took 0.078113 seconds .
+  Time since last request: 0.000388 seconds.
+  path: Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_top.jpg
+  artifactKey: Guid(28f149f9eb20447449d4fdd6acf3ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_top.jpg using Guid(28f149f9eb20447449d4fdd6acf3ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76db80a8774ef90acffcc71a08e9b154') in 0.073977 seconds 
+  Import took 0.081278 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001291 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
-  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cfbe49cd2cf712635d082f602f1121') in 0.077517 seconds 
-  Import took 0.086640 seconds .
+  Time since last request: 0.000459 seconds.
+  path: Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_left.jpg
+  artifactKey: Guid(efcf604c3a25bf940b9644440b847e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_left.jpg using Guid(efcf604c3a25bf940b9644440b847e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2ab3888476a11559583ea8b6265eac') in 0.066252 seconds 
+  Import took 0.073469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_back.jpg
+  artifactKey: Guid(714add663c6602a45ae7182a6c144323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_back.jpg using Guid(714add663c6602a45ae7182a6c144323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e78325fcd29d202dea87caa9c0fa02') in 0.070911 seconds 
+  Import took 0.079450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001085 seconds.
+  path: Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_top.jpg
+  artifactKey: Guid(85f7e8a396aa40545a6748bc184a7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_top.jpg using Guid(85f7e8a396aa40545a6748bc184a7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f0d75a3d0ab5f2fb40f4891495707d') in 0.074557 seconds 
+  Import took 0.083785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000728 seconds.
+  path: Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_left.jpg
+  artifactKey: Guid(a0935b50d63b2eb4a8564893347c3692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_left.jpg using Guid(a0935b50d63b2eb4a8564893347c3692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba93a5fc57272a53b32b28c91888323') in 0.075924 seconds 
+  Import took 0.086771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_bottom.jpg
+  artifactKey: Guid(207cfef1caffafe4b90f5b358ab27ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_bottom.jpg using Guid(207cfef1caffafe4b90f5b358ab27ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d6411228dc5366dd3c57da8306757f') in 0.059298 seconds 
+  Import took 0.067114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/3Skyboxes/Materials/Skybox_BluePinkNebular.mat
+  artifactKey: Guid(939e9a2214e37ec4e8eb4fe85d074704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Materials/Skybox_BluePinkNebular.mat using Guid(939e9a2214e37ec4e8eb4fe85d074704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef72b119207e46c181bcb95a5ae30bc') in 1.455897 seconds 
+  Import took 1.483990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_right.jpg
+  artifactKey: Guid(942a24a67e4303f41b6f89fcc0e02456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_right.jpg using Guid(942a24a67e4303f41b6f89fcc0e02456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e896e47c60d1387a42fb4722167c9b9a') in 0.102361 seconds 
+  Import took 0.115443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000886 seconds.
+  path: Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_back.jpg
+  artifactKey: Guid(7746a063e6e271145891203c623e3ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_back.jpg using Guid(7746a063e6e271145891203c623e3ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce0ecee5f8466ce0d75778d6ed84b2d') in 0.086151 seconds 
+  Import took 0.096899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_back.jpg
+  artifactKey: Guid(3eade956c492d32458c3f3861da564a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_back.jpg using Guid(3eade956c492d32458c3f3861da564a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dae6d201abd411113ba74deb971243') in 0.064690 seconds 
+  Import took 0.074503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/3Skyboxes/Materials/Skybox_GreenNebular.mat
+  artifactKey: Guid(2d59d810ba900874295015e507e19f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Materials/Skybox_GreenNebular.mat using Guid(2d59d810ba900874295015e507e19f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38aeb6965e2dd707b856eebe041d23f') in 0.294143 seconds 
+  Import took 0.307164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_front.jpg
+  artifactKey: Guid(64256e95256b9064bb85c6658ea884aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_front.jpg using Guid(64256e95256b9064bb85c6658ea884aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a595f349a8ac4e008ac211349b9d6af1') in 0.061156 seconds 
+  Import took 0.066354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_left.jpg
+  artifactKey: Guid(d58c7aa74edd6ee4e843a8c54307a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_left.jpg using Guid(d58c7aa74edd6ee4e843a8c54307a8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44327f7e29b472c209894299e3366083') in 0.057552 seconds 
+  Import took 0.063540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_front.jpg
+  artifactKey: Guid(8a34c4532f1ebdd4490dc17de736a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BluePinkNebular_Textures/BluePinkNebular_front.jpg using Guid(8a34c4532f1ebdd4490dc17de736a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9519197d706e3cd107da3db063f79729') in 0.055219 seconds 
+  Import took 0.060667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_front.jpg
+  artifactKey: Guid(4aa19d95d8173e847800d660d21da970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_front.jpg using Guid(4aa19d95d8173e847800d660d21da970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b2af0d67385fc2585210aa33664eb6') in 0.052845 seconds 
+  Import took 0.057866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_right.jpg
+  artifactKey: Guid(06b96ca4707fbf24e80cbcfe2ab88549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_right.jpg using Guid(06b96ca4707fbf24e80cbcfe2ab88549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0068bedfdb27eb4920c00951a29786') in 0.057983 seconds 
+  Import took 0.064164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/3Skyboxes/Materials/Skybox_BlueNebular.mat
+  artifactKey: Guid(b6a3f8bca2c865243929bac258c89b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Materials/Skybox_BlueNebular.mat using Guid(b6a3f8bca2c865243929bac258c89b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1a1188d8c2e5a8eedf7f5fd786edfc') in 0.272715 seconds 
+  Import took 0.285484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/3Skyboxes/Materials
+  artifactKey: Guid(a4175675ccbed734a96ca08dcb9e7603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Materials using Guid(a4175675ccbed734a96ca08dcb9e7603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426c2b07072cfe4b8eb5f3b86edaa6ce') in 0.010197 seconds 
+  Import took 0.016355 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000480 seconds.
-  path: Assets/Materials/New Material.mat
+  path: Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_bottom.jpg
+  artifactKey: Guid(aba337558e31df94c843ecab2a85ebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_GreenNebular_Textures/GreenNebular_bottom.jpg using Guid(aba337558e31df94c843ecab2a85ebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcdb4ec4a0f1db19ff01acaa0bd8328') in 0.079817 seconds 
+  Import took 0.085506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_bottom.jpg
+  artifactKey: Guid(8f042aa2fffc37643a0ca2fa3cfafbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_bottom.jpg using Guid(8f042aa2fffc37643a0ca2fa3cfafbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e72fcaf298f93be781bc7087c718d3') in 0.076964 seconds 
+  Import took 0.085855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_top.jpg
+  artifactKey: Guid(dde976bcdaaea1143b8a48a75b7557be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3Skyboxes/Skybox_BlueNebular_Textures/BlueNebular_top.jpg using Guid(dde976bcdaaea1143b8a48a75b7557be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9859c3612848f15558c653d8b3125f2') in 0.063005 seconds 
+  Import took 0.071317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.372747 seconds.
+  path: Assets/Materials/Water.mat
   artifactKey: Guid(0883cf9bfcc36f94383353669589acc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(0883cf9bfcc36f94383353669589acc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c59d4c44cecad07b0083ce74b8c184') in 0.029837 seconds 
-  Import took 0.036247 seconds .
+Start importing Assets/Materials/Water.mat using Guid(0883cf9bfcc36f94383353669589acc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a35812247bd266d94ea28e5ce200c6') in 0.042161 seconds 
+  Import took 0.047787 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002962 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2798ms)
+		BeginReloadAssembly (383ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (2239ms)
+			LoadAssemblies (273ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (723ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (878ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (679ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 7.894300 ms (FindLiveObjects: 0.497300 ms CreateObjectMapping: 0.123200 ms MarkObjects: 7.219300 ms  DeleteObjects: 0.050100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1310ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1049ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (338ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 6.752200 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.129900 ms MarkObjects: 6.227500 ms  DeleteObjects: 0.070700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1684.512749 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw
+  artifactKey: Guid(20188d1d42d39f94a97068d561b8d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw using Guid(20188d1d42d39f94a97068d561b8d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16872d1057e9e53143f236f25f11672') in 0.014870 seconds 
+  Import took 0.019738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat
-  artifactKey: Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat using Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d466eeedada362a52d9946e0ef8cfd3') in 0.072318 seconds 
-  Import took 0.085056 seconds .
+  Time since last request: 2.496101 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs
+  artifactKey: Guid(fc26fa72bbfc0f84f80835c8a53abad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs using Guid(fc26fa72bbfc0f84f80835c8a53abad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75db129d83e03e8e63e37e5771bd7410') in 0.009345 seconds 
+  Import took 0.014105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001267 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat
-  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55ea359bb5b88896eaf9cb5a9864993') in 0.080154 seconds 
-  Import took 0.089365 seconds .
+  Time since last request: 0.085808 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_Armor - LOD0.prefab
+  artifactKey: Guid(cbba07a6ac8fd9648a0ee26df90297e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_Armor - LOD0.prefab using Guid(cbba07a6ac8fd9648a0ee26df90297e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db80019244060faef12ce1b7227aab15') in 0.366726 seconds 
+  Import took 0.374374 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000637 seconds.
-  path: Assets/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat
-  artifactKey: Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat using Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ec10c280250b776ef8cd8cc16042f3') in 0.174732 seconds 
-  Import took 0.183229 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_NoArmor - LOD1.prefab
+  artifactKey: Guid(186d1f74b625fa744abf8a07b350ce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_NoArmor - LOD1.prefab using Guid(186d1f74b625fa744abf8a07b350ce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef455207f7a51c61741529ea0a29cdc') in 0.068202 seconds 
+  Import took 0.074926 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000692 seconds.
-  path: Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat
-  artifactKey: Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat using Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483e1e707a263429d81e7ad10451907b') in 0.044177 seconds 
-  Import took 0.052722 seconds .
+  Time since last request: 0.000499 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_Armor - LOD1.prefab
+  artifactKey: Guid(870982cf02cc258429948de0da1e4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_Armor - LOD1.prefab using Guid(870982cf02cc258429948de0da1e4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036b9a0e6bccd5fb4c8161ad49f0211d') in 0.065490 seconds 
+  Import took 0.072985 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001414 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat
-  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e703ea32e6c57bd688d01d6cc461cf') in 0.045708 seconds 
-  Import took 0.054231 seconds .
+  Time since last request: 0.000490 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_NoArmor - LOD0.prefab
+  artifactKey: Guid(46ed63af97cc2db47b121fc1b2cc6bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Prefabs/SkeletonOutlaw_NoArmor - LOD0.prefab using Guid(46ed63af97cc2db47b121fc1b2cc6bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87453ec0bf0429597527914363dae39') in 0.063720 seconds 
+  Import took 0.070608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001292 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
-  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b098de8ee2a06e28e10bf2e6945cab1') in 0.162747 seconds 
-  Import took 0.168751 seconds .
+  Time since last request: 8.491770 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Source/SkeletonOutlaw - LOD0.fbx
+  artifactKey: Guid(28b668865ad9a884395ab10f675feb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Source/SkeletonOutlaw - LOD0.fbx using Guid(28b668865ad9a884395ab10f675feb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea121dea4faf794ef331ebb3aa55a43') in 0.208792 seconds 
+  Import took 0.215577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat
-  artifactKey: Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat using Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73dd0114eee85cfe004568d6de13730') in 0.093895 seconds 
-  Import took 0.102898 seconds .
+  Time since last request: 0.000528 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Source/SkeletonOutlaw - LOD1.fbx
+  artifactKey: Guid(a3f2bf24dc927464a8b47e5e9102c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Source/SkeletonOutlaw - LOD1.fbx using Guid(a3f2bf24dc927464a8b47e5e9102c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252330ffde6cde01b8eb865611b5f17a') in 0.193156 seconds 
+  Import took 0.198620 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
-  artifactKey: Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx using Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe728441f8bc159b90b78c102fdf9fc') in 0.082810 seconds 
-  Import took 0.091115 seconds .
+  Time since last request: 2.075895 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Textures/Axe00.png
+  artifactKey: Guid(4066f8d9dc258f444808d847ff7aef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Textures/Axe00.png using Guid(4066f8d9dc258f444808d847ff7aef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc62ef260ed0cca84d579b733a670e9d') in 0.036729 seconds 
+  Import took 0.044231 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000787 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Textures/SkeletonOutlaw00.png
+  artifactKey: Guid(27ceb3322efe0494583b27312badd673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Textures/SkeletonOutlaw00.png using Guid(27ceb3322efe0494583b27312badd673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9011beebd8b57832756a0c0186b38ac2') in 0.028911 seconds 
+  Import took 0.036813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014379 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Textures/SkeletonOutlaw00.png
+  artifactKey: Guid(27ceb3322efe0494583b27312badd673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Textures/SkeletonOutlaw00.png using Guid(27ceb3322efe0494583b27312badd673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9011beebd8b57832756a0c0186b38ac2') in 0.030704 seconds 
+  Import took 0.039531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.183918 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlaw00.mat
+  artifactKey: Guid(85c9036657772d04fbe356f55127a3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlaw00.mat using Guid(85c9036657772d04fbe356f55127a3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af13d7384e9b78c2930ff08287c3a65c') in 0.034011 seconds 
+  Import took 0.039165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawSkybox.mat
+  artifactKey: Guid(8c1fd12dda6e62a44826afa6d8c44698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawSkybox.mat using Guid(8c1fd12dda6e62a44826afa6d8c44698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ae6cd4ac3795beed3a3a1ebf9e2975') in 0.038909 seconds 
+  Import took 0.045337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawSceneFloor.mat
+  artifactKey: Guid(eca5d215c8ab41e4f950f910b8eefb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawSceneFloor.mat using Guid(eca5d215c8ab41e4f950f910b8eefb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592e62256c83d181af5cd84cd9f3a01a') in 0.025045 seconds 
+  Import took 0.031618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawAxe00.mat
+  artifactKey: Guid(e930b395dbca2bb4cb8e0c28b78a0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawAxe00.mat using Guid(e930b395dbca2bb4cb8e0c28b78a0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f159bbe50241bdefe089339dca4af6') in 0.028852 seconds 
+  Import took 0.033335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022705 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawAxe00.mat
+  artifactKey: Guid(e930b395dbca2bb4cb8e0c28b78a0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Materials/SkeletonOutlawAxe00.mat using Guid(e930b395dbca2bb4cb8e0c28b78a0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f159bbe50241bdefe089339dca4af6') in 0.028932 seconds 
+  Import took 0.034728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.674525 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Attack00.fbx
+  artifactKey: Guid(2a2ff845dd4f08a4b9f16004cdac1005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Attack00.fbx using Guid(2a2ff845dd4f08a4b9f16004cdac1005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9381584d32746c48f6f43f1dee161fc') in 0.016840 seconds 
+  Import took 0.021957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Damage00.fbx
+  artifactKey: Guid(e263228e6d15f8e4c91604a4e0af284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Damage00.fbx using Guid(e263228e6d15f8e4c91604a4e0af284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dc551b195151f9ad9e904ae782d53d') in 0.026979 seconds 
+  Import took 0.033470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Run00.fbx
+  artifactKey: Guid(c451515cb9060534bb1d1c6801a798b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Run00.fbx using Guid(c451515cb9060534bb1d1c6801a798b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80da5909cfd44193237a7c7f273f9c8') in 0.021524 seconds 
+  Import took 0.028780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Idle00.fbx
+  artifactKey: Guid(82e575599256ad74eb867a78e686a10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Idle00.fbx using Guid(82e575599256ad74eb867a78e686a10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb2fcc2e3a53da4e8f3a6b5295a11ba') in 0.021987 seconds 
+  Import took 0.028414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Attack02.fbx
+  artifactKey: Guid(fc79cd7f43dd8cf48938a30b51b7bf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Attack02.fbx using Guid(fc79cd7f43dd8cf48938a30b51b7bf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83664708e8928782afd632990046692c') in 0.018328 seconds 
+  Import took 0.023924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Jump00 [NoRootMotion].fbx
+  artifactKey: Guid(4d1c1663ca126144f9813d9ddd1dd119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Jump00 [NoRootMotion].fbx using Guid(4d1c1663ca126144f9813d9ddd1dd119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef985bb770cb8d3f85156bd1bc513506') in 0.017577 seconds 
+  Import took 0.023610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Walk00.fbx
+  artifactKey: Guid(1111c303e393ade49997c8e70bee7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Walk00.fbx using Guid(1111c303e393ade49997c8e70bee7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9778f65090fb962b96e605ffe0404d') in 0.018193 seconds 
+  Import took 0.024600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Jump00.fbx
+  artifactKey: Guid(4bc25127a9f389d4b8db324cd85a7080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Jump00.fbx using Guid(4bc25127a9f389d4b8db324cd85a7080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce9b410d6a4e40b8954ffe55059d7be') in 0.020330 seconds 
+  Import took 0.028025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Idle02.fbx
+  artifactKey: Guid(e20cfa8f1ecdc554087db1e9198090a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Idle02.fbx using Guid(e20cfa8f1ecdc554087db1e9198090a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3767a9cb6c21f681dc007dda69021ec7') in 0.022129 seconds 
+  Import took 0.029014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Dead01.fbx
+  artifactKey: Guid(c811128f97ed4f944b1ce24d53ce3dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Dead01.fbx using Guid(c811128f97ed4f944b1ce24d53ce3dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e4cadff18f5fb763c346b04e7961ff') in 0.030761 seconds 
+  Import took 0.040004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Damage01.fbx
+  artifactKey: Guid(c1af99e72b0b5b042bd297ee3ff95372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Damage01.fbx using Guid(c1af99e72b0b5b042bd297ee3ff95372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671d566d337d69835a5282e783d9a928') in 0.023367 seconds 
+  Import took 0.031619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Dead00.fbx
+  artifactKey: Guid(4dc448ac47a91c6428de3a7af494b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Dead00.fbx using Guid(4dc448ac47a91c6428de3a7af494b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800f608417c6549772572401b0ccb353') in 0.026147 seconds 
+  Import took 0.034737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Idle01.fbx
+  artifactKey: Guid(6f532e8c9aa994741b00c8f23c9ee923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Idle01.fbx using Guid(6f532e8c9aa994741b00c8f23c9ee923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5576e9a10a43cc908302896d035c6bd') in 0.030768 seconds 
+  Import took 0.040045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Attack01.fbx
+  artifactKey: Guid(c588282f31b310f45b1c08e2159fe749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/Animations/SkeletonOutlaw@Attack01.fbx using Guid(c588282f31b310f45b1c08e2159fe749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2118daa710dba7ee1b52961c1e78ac') in 0.028488 seconds 
+  Import took 0.037636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.918171 seconds.
+  path: Assets/Kevin Iglesias/SkeletonOutlaw/SkeletonOutlawDemo.controller
+  artifactKey: Guid(0ca7eafc6f555b741862212a56fd50e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/SkeletonOutlaw/SkeletonOutlawDemo.controller using Guid(0ca7eafc6f555b741862212a56fd50e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802a39c2b718f1516d57f0bd812e4f53') in 0.063560 seconds 
+  Import took 0.071843 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.715 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2716ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (2249ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (744ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (897ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (704ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.2 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2754.
+Total: 7.028600 ms (FindLiveObjects: 0.355100 ms CreateObjectMapping: 0.175900 ms MarkObjects: 6.352800 ms  DeleteObjects: 0.142000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
